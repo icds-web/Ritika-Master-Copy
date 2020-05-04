@@ -1,0 +1,399 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+#title{
+  background-color: #ffacb7;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 10% 10%;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+h3{
+  font-family: "Montserrat";
+}
+
+h4{
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 10px 1px 7px 30px;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: "Montserrat-Light";
+  font-weight: bold;
+  margin-top: 0;
+}
+
+a:hover {
+  color: #34c0e7;
+  text-decoration: underline; }
+
+/* Download Buttons  */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 700px;
+  padding: 0 20px 1px 0;
+  margin: -5% 0 40% 0;
+  position: absolute;
+  vertical-align: middle;
+  height: 450px;
+  background-size: cover;
+}
+
+/* Features Section */
+
+#features{
+  padding: 3% 10% 2% 7%;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-tags{
+  margin: 5% 5% 15%;
+  color: #000;
+}
+
+.icon{
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.icon:hover{
+  color: #fb8691;
+}
+
+.circle-icon{
+  background: #ffc0c0;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.circle-icon:hover{
+  color: #fff;
+}
+
+/* Appartment */
+
+#Appartments{
+  background-color: #ffacb7;
+  color: #fff;
+  margin: 0 0 7%;
+}
+
+.appartment-image{
+  width: 130%;
+  padding: 3% 3%;
+  margin: 3% -150% 10%;
+}
+
+.appartment-preheading{
+  text-align: center;
+  margin: 50px 5px 7px;
+  padding: 3% 2% 2%;
+}
+
+.appartment-heading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10% 5%;
+    font-weight: bold;
+}
+
+.btn-customize{
+  color: #fff;
+}
+
+.btn-customize:hover{
+  background-color: #ffacb7;
+}
+
+.appartment-body{
+     font-family: 'Poppins', sans-serif;
+     font-size: 1rem;
+     line-height: 1.5rem;
+     overflow-wrap: "normal";
+     width: 13rem;
+     margin: 5px 15px 30px 80px;
+     text-align: center;
+}
+
+.button-reserve{
+  margin: 20px;
+}
+
+/* Types of Appartments */
+
+.subheading{
+   margin: 3% 2% 2%;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+}
+
+.mb-4{
+    text-align: center;
+    margin: 3% 3% 5% 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.appartment-image{
+     margin: 15% 30% 20% -25%;
+}
+
+.city{
+  margin: 20px -45px 20px;
+  padding: 15px -50px -50px 50px;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ffacb7;
+  color: #fff;
+  height: 700px;
+}
+
+.testimonial-image{
+  width: 60%;
+  border-radius: 100%;
+  padding: 0 3%;
+  margin: 0 -1% 25% 10%;
+}
+
+.subheading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 3% 10% 0;
+}
+
+.testimonial-heading{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 3px 20px 7px;
+}
+
+.testimonial-body {
+   text-align: center;
+   margin: 3% 2% 3% 5%;
+   font-size: 1rem;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.types{
+  margin: 20px -45px 20px;
+  padding: 15px -50px -50px 50px;
+}
+
+
+/* Blogs Section */
+
+#blogs{
+  background-color: #fff;
+  color: #000;
+  padding: 3% 10% 0 5%;
+  text-align: center;
+}
+
+.mb-4{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding: 3% 10% 0 5%;
+  margin-bottom: 0;
+}
+
+.blog-heading{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 -25% 0 20%;
+}
+
+.blog-image{
+  height: 30%;
+  margin: 15% 30% 20% 15%;
+}
+
+.blog-image2{
+  margin: 15% 50% 20% 11%;
+  height: 30%;
+}
+
+.blog-container{
+  height: 700px;
+}
+
+/* Footer Section */
+
+#footer{
+  background-color: #ffacb7;
+  color: #fff;
+  padding: 5% 0 0 0;
+  height: 500px;
+}
+
+.footer-heading{
+  padding: 5% 5% 10% 20%;
+  line-height: 1.5rem;
+}
+
+.footer-subheading{
+  padding: 0 5% 10% 20%;
+  line-height: 1.5rem;
+  color: #fff;
+  font-weight: normal;
+}
+
+.footer-heading1{
+  padding: 5% 50% 10% 20%;
+}
+
+.footer-heading2{
+  padding: 5% 50% 10% 15%;
+}
+
+.footer-heading3{
+  padding: 5% 30% 10% 10%;
+}
+
+.social-icon{
+  padding: 5% 5% 10% 10%;
+}
+
+.footer-list1{
+  padding: 5% 37% 0 5%;
+  text-align: center;
+}
+
+.footer-list2{
+  padding: 0 30% 0 5%;
+  text-align: center;
+}
+
+.footer-list3{
+  padding: 0 100% 0 25%;
+  text-align: left;
+}
+
+.footer-list4{
+  padding: 0 28% 0 5%;
+  text-align: center;
+}
+
+.footer-list5{
+  padding: 0 43% 0 5%;
+  text-align: center;
+}
+
+.footer-list6{
+  padding: 0 33% 1% 5%;
+  text-align: center;
+}
+
+.footer-list7{
+  padding: 5% 40% 0 5%;
+  text-align: center;
+}
+
+.footer-list8{
+  padding: 0 57% 0 5%;
+  text-align: center;
+}
+
+.footer-list9{
+  padding: 0 40% 1% 5%;
+  text-align: center;
+}
+
+.footer-list10{
+  padding: 0 30% 0 5%;
+  text-align: center;
+}
+
+.footer-list11{
+  padding: 0 48% 0 5%;
+  text-align: center;
+}
+
+.footer-list12{
+  padding: 0 40% 1% 5%;
+  text-align: center;
+}
+
+.footer-icon{
+  padding: 0 200% 0 10%;
+}
+
+
+.rights{
+  text-align: center;
+  font-size: 14px;
+}
